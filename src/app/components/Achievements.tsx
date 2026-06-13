@@ -5,18 +5,18 @@ import { Award, Trophy, Star } from 'lucide-react';
 const achievements = [
   {
     icon: <Award className="w-8 h-8 text-[#c9a96e]" />,
-    title: 'NSS Digital Coordinator',
-    description: 'Serving as the Digital Coordinator for NSS at Vignan College, managing, Photography, digital presence and event documentation.',
+    title: 'NSS Digital & Department Coordinator',
+    description: 'Serving as the NSS Digital and Department Coordinator at Vignan College, managing photography, social media presence, event documentation, and coordinating departmental activities and digital initiatives.',
   },
   {
     icon: <Trophy className="w-8 h-8 text-[#c9a96e]" />,
-    title: 'Hackathon Participation',
-    description: 'Actively participated in multiple hackathons, demonstrating problem-solving skills and building innovative solutions under pressure.',
+    title: 'Google Agentathon Participation',
+    description: 'Participated in the Google Agentathon, collaborating on AI-driven solutions, applying problem-solving skills, and exploring innovative agent-based technologies in a competitive environment.',
   },
   {
     icon: <Star className="w-8 h-8 text-[#c9a96e]" />,
     title: 'Certifications',
-    description: 'Earned multiple certificates in learning and development, constantly upskilling in modern web technologies and design.',
+    description: 'Earned multiple certifications in programming, web development, databases, and emerging technologies, continuously enhancing technical knowledge and professional skills.',
   }
 ];
 

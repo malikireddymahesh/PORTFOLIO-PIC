@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, Linkedin, Send } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 
 export function Contact() {
   return (
@@ -64,6 +65,16 @@ export function Contact() {
               <div>
                 <span className="block text-sm text-gray-500 dark:text-gray-500 uppercase tracking-widest mb-1">LinkedIn</span>
                 <span className="text-gray-900 dark:text-white group-hover:text-[#c9a96e] transition-colors">Malikireddy Maheshwar Reddy</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/malikireddymahesh" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <div className="w-14 h-14 rounded-full bg-gray-200 dark:bg-white/5 border border-gray-300 dark:border-white/10 flex items-center justify-center group-hover:bg-[#c9a96e] group-hover:border-[#c9a96e] transition-all duration-300">
+                <FaGithub className="w-6 h-6 text-[#c9a96e] group-hover:text-white dark:group-hover:text-[#0f0f0f]" />
+              </div>
+              <div>
+                <span className="block text-sm text-gray-500 dark:text-gray-500 uppercase tracking-widest mb-1">GITHUB</span>
+                <span className="text-gray-900 dark:text-white group-hover:text-[#c9a96e] transition-colors">github.com/malikireddymahesh</span>
               </div>
             </a>
           </div>
